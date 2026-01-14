@@ -20,7 +20,7 @@ const QuickViewModal = () => {
 
   // get the product data
   const product = useAppSelector((state) => state.quickViewReducer.value);
-if (!product) return null;
+
   const [activePreview, setActivePreview] = useState(0);
 
   // preview modal
@@ -138,7 +138,7 @@ if (!product) return null;
 
                     {product?.imgs?.previews?.[activePreview] && (
                       <Image
-                        src={product.imgs.previews[activePreview]}
+                        src={product.imgs.previews[activePreview]||""}
                         alt="products-details"
                         width={400}
                         height={400}
