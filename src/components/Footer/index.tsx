@@ -6,9 +6,9 @@ import { FaInstagram, FaFacebookF, FaTiktok } from "react-icons/fa";
 
 const Footer = () => {
   const socials = [
-    { name: "Instagram", icon: <FaInstagram />, href: "https://instagram.com" },
+    { name: "Instagram", icon: <FaInstagram />, href: "https://www.instagram.com/mado.sam2026?igsh=MWFkbWRqc2Y4NHk4cA%3D%3D" },
     { name: "Facebook", icon: <FaFacebookF />, href: "https://facebook.com" },
-    { name: "TikTok", icon: <FaTiktok />, href: "https://tiktok.com" },
+    { name: "TikTok", icon: <FaTiktok />, href: "https://www.tiktok.com/@mado.sam5?_r=1&_t=ZM-934Y0YILANP" },
   ];
 
   return (
@@ -27,7 +27,7 @@ const Footer = () => {
             className="cinzel text-[32px] sm:text-[40px] md:text-[50px] lg:text-[54px] text-[var(--gold)] font-bold leading-tight mb-4"
             style={{ fontFamily: "Cinzel" }}
           >
-            We are ready to give you the best dining experiences
+            Prepared with care to offer you the ultimate taste experience
           </h1>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
