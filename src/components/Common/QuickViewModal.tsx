@@ -20,7 +20,7 @@ const QuickViewModal = () => {
 
   // get the product data
   const product = useAppSelector((state) => state.quickViewReducer.value);
-
+if (!product) return null;
   const [activePreview, setActivePreview] = useState(0);
 
   // preview modal

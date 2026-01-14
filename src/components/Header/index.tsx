@@ -16,6 +16,7 @@ const Header = () => {
   const { openCartModal } = useCartModalContext();
 
   const product = useAppSelector((state) => state.cartReducer.items);
+  if (!product) return null;
   const totalPrice = useSelector(selectTotalPrice);
 
 
